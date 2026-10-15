@@ -1,0 +1,12 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="12dp" android:background="#202124">
+    <TextView android:id="@+id/widget_title" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="RAM WATCH" android:textColor="#E8FF6B" android:textStyle="bold" android:textSize="14sp" />
+    <TextView android:id="@+id/widget_used" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Used: reading…" android:textColor="#FFFFFF" android:textSize="18sp" android:paddingTop="6dp" />
+    <TextView android:id="@+id/widget_free" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Available: reading…" android:textColor="#D4D4D4" android:textSize="13sp" />
+    <TextView android:id="@+id/widget_updated" android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Tap to refresh" android:textColor="#AAAAAA" android:textSize="11sp" android:paddingTop="4dp" />
+</LinearLayout>
